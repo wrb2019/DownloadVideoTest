@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/Main_btnStartDownLoad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始下载"/>
+
+    <Button
+        android:id="@+id/Main_btnPauseDownLoad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="暂停下载"/>
+
+    <Button
+        android:id="@+id/Main_btnCancelDownLoad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="取消下载"/>
+
+</LinearLayout>
