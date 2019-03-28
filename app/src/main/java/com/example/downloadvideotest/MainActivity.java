@@ -24,17 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private static final String TAG = "MainActivity";
     private static final int WRITE_PERMISSION_CODE = 1000;
     //文件下载链接
-    //private String url = "https://flv2.bn.netease.com/videolib1/1811/26/OqJAZ893T/HD/OqJAZ893T-mobile.mp4";//汽车视频
-    //private String url = "https://222.52.51.133:8082/pic/2019-03/2019-03-18/46cff43cc4444ba7b76bf93d9844c81b.avi";//测试服务器上能播放的视频
-    //private String url = "https://test.szjyxtech.com/pic/2019-03/2019-03-18/46cff43cc4444ba7b76bf93d9844c81b.avi";//测试服务器上不能播放的视频
-    private String url = "http://wry201901.oss-cn-shenzhen.aliyuncs.com/inOrOutVideo/2019-02/2019-02-21/a8619daf775944fe9bf64689bb9dda9a.avi";//oss上能播放的视频
-    //private String url = "http://wry201901.oss-cn-shenzhen.aliyuncs.com/inOrOutVideo/2019-02/2019-02-21/eae4a983b2e7430bb7cfa11bbf03a49b.avi";//oss上能播放的视频
-    //private String url = "http://wry201901.oss-cn-shenzhen.aliyuncs.com/inOrOutVideo/2019-02/2019-02-21/0a7be14a4b4545478458a54c7dc23ed4.avi";//oss上能播放的视频
-    //private String url = "http://wrb201901.oss-cn-hangzhou.aliyuncs.com/%E6%A1%82%E6%9E%97%E9%87%91%E9%93%B1%E6%98%9F.txt";//txt文件
-    //private String url = "http://wrb201901.oss-cn-hangzhou.aliyuncs.com/%E5%B7%A5%E4%BD%9C%E6%80%BB%E7%BB%93.docx";//txt文件
-    //private String url = "http://wrb201901.oss-cn-hangzhou.aliyuncs.com/毅峰路收费图.jpg";//图片文件
-    //private String url = "http://vjs.zencdn.net/v/oceans.mp4";//videoJS视频
-    //private String url = "F:/upload/46cff43cc4444ba7b76bf93d9844c81b.avi";//本地视频
+    private String url = "https://flv2.bn.netease.com/videolib1/1811/26/OqJAZ893T/HD/OqJAZ893T-mobile.mp4";//汽车视频
 
     private Context mContext;
 
